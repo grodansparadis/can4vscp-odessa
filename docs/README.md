@@ -1,52 +1,37 @@
+# CAN4VSCP Odessa module
 
-## Manual for the Odessa module
+**Document reversion**: 1.0.0  2015-04-24 <br>
+Copyright © 2000-2015 [Grodans Paradis AB](http://www.grodansparadis.com), <[info@grodansparadis.com](mailto:akhe@grodansparadis.com)>
 
-**Document version:** ${/var/document-version} - ${/var/creation-time}
-[HISTORY](./history.md)
+![Odessa](media/odessa12.png ':size=600')
 
+This documentation is for the [Odessa module](http://www.grodansparadis.com/odessa/odessa.html). The module is available for international purchase from the [FrogShop](http://www.frogshop.se).
 
-![Odessa](/images/odessa17.png)
+- [Introduction](introduction.md)
+- [Getting Started](getting_started.md)
+- [Hardware](hardware.md)
+- [CAN4VSCP cabling](can4vscp_cabling.md)
+- [Updating the firmware](replacing_the_firmware.md)
+- [Registers](registers.md)
+- [Decision Matrix](decisionmatrix.md)
+- [faq](faq.md)
 
-Odessa is a board that have a [Zeus expansion interface](https://github.com/grodansparadis/vscp/wiki/Zeus-expansion-interface) and normally is the base for other products with an expansion board permanently mounted for some particular use. However. as the module also can be useful as a starting point for custom projects it is also useful on its own. All you need to do is to add your custom expansion card to the module and write the code to interface it or use it as a general I/O module
+<em>**Disclaimer:** © 2011-2015 Grodans Paradis AB. All rights reserved. Grodans Paradis AB®, logo and combinations thereof, are registered trademarks of Grodans Paradis AB. Other terms and product names may be trademarks of others. The information in this document is provided in connection with Grodans Paradis AB products. No license, express or implied or otherwise, to any intellectual property right is granted by this document or in connection with the sale of Grodans Paradis AB products. Neither the whole nor any part of the information contained in or the product described in this document may be adapted or reproduced in any material from except with the prior written permission of the copyright holder. The product described in this document is subject to continuous development and improvements. All particulars of the product and its use contained in this document are given by Grodans Paradis AB in good faith. However all warranties implied or expressed including but not limited to implied warranties of merchantability or fitness for purpose are excluded. This document is intended only to assist the reader in the use of the product. Grodans Paradis AB. shall not be liable for any loss or damage arising from the use of any information in this document or any error or omission in such information or any incorrect use of the product.</em>
 
-The module comes with a GUID and programmed with a bootloader and VSCP module functionality that out of the box (as a sample) work as a digital output module but which easily can be extended to set up with your own functionality.
+![](media/rohs.png ':size=100')
+All boards produced by Grodans Paradis AB are ROHS compliant.
 
-The module have a [[http://www.microchip.com/wwwproducts/Devices.aspx?product=PIC18F26K80|PIC18F26K80]] installed which have 64 Kbytes of Flash, 1Kbytes of EEPROM and 3,648 bytes of ram. 
+<br>
 
-The module comes with a GUID and is programmed with a bootloader and
-VSCP module functionality that works right out of the box.
+---
 
-* [Repository for the module](https://github.com/grodansparadis/can4vscp-odessa)
-* This manual is available [here](https://grodansparadis.github.io/can4vscp-odessa/)
-* Latest schema for the module is available [here](https://github.com/grodansparadis/can4vscp-odessa/blob/master/eagle/odessa_sch_rev_a.png)
-* Latest firmware for the module is available [here](https://github.com/grodansparadis/can4vscp-odessa/tree/master/firmware)
-* [MDF for the module](https://github.com/grodansparadis/can4vscp-Odessa/tree/master/mdf)
+![](media/grodan_logo.png ':size=100')
+<br>
 
+<center>
 
-## VSCP
+**Paradise of the Frog AB** Brattbergavägen 17 820 50 LOS SWEDEN<br>
+**email:** [info@grodansparadis.com](mailto:info@grodansparadis.com) **phone:** +46 (0)8 40011835 <br>
+**web:**[http://www.grodansparadis.com](http://www.grodansparadis.com) <br>
 
-![VSCP logo](./images/logo_100.png)
-
-VSCP is a free and open automation protocol for IoT and m2m devices. Visit [the VSCP site](https://www.vscp.org) for more information.
-
-**VSCP is free.** Placed in the **public domain**. Free to use. Free to change. Free to do whatever you want to do with it. VSCP is not owned by anyone. VSCP will stay free and gratis forever.
-
-The specification for the VSCP protocol is [here](https://docs.vscp.org) 
-
-VSCP documentation for various parts can be found [here](https://docs.vscp.org/).
-
-If you use VSCP please consider contributing resources or time to the project ([https://github.com/sponsors/grodansparadis](https://github.com/sponsors/grodansparadis)).
-
-## Buy a module
-
-<img src="./images/grodan_logo.png" alt="Grodans PAradis AB" width="200"/>
-
-Ready made modules can be bought from [Grodans Paradis AB](https://www.grodansparadis.com).
-
-## Document license
-
-This document is licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) and can be freely copied, redistributed, remixed, transformed, built upon as long as you give credits to the author.
-
-
-
-[filename](./bottom-copyright.md ':include')
+</center>
